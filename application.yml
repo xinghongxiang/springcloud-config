@@ -8,7 +8,7 @@ server:
 spring:
   profiles: dev # 开发环境
   applications:
-    name: springcloud-config-dev
+    name: application-dev
   
 #----------------------------------------------  
 server:
@@ -16,7 +16,7 @@ server:
 spring:
   profiles: prod # 生产环境
   applications:
-    name: springcloud-config-prod
+    name: application-prod
 #----------------------------------------------    
 #保存注意UTF-8保存
   
