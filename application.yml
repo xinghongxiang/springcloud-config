@@ -2,7 +2,8 @@ spring:
   profiles:
     active: dev # 激活开发环境配置
  
-#---------------------------------------------- 
+# --- 保存区分多个配置项
+---
 server:
   port: 4001 # 端口号
 spring:
@@ -10,13 +11,13 @@ spring:
   applications:
     name: application-dev
   
-#----------------------------------------------  
+--- 
 server:
   port: 4002 # 端口号
 spring:
   profiles: prod # 生产环境
   applications:
     name: application-prod
-#----------------------------------------------    
+    
 #保存注意UTF-8保存
   
