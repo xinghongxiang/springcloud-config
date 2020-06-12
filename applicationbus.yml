@@ -1,6 +1,6 @@
 spring:
   profiles:
-    active: dev # 激活开发环境配置
+    active: prod # 激活开发环境配置
  
 # --- 保存区分多个配置项
 ---
@@ -13,7 +13,7 @@ spring:
   
 --- 
 server:
-  port: 19001 # 端口号
+  port: 19003 # 端口号
 spring:
   profiles: prod # 生产环境
   applications:
