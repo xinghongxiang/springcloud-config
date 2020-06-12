@@ -1,0 +1,23 @@
+spring:
+  profiles:
+    active: dev # 激活开发环境配置
+ 
+# --- 保存区分多个配置项
+---
+server:
+  port: 19000 # 端口号
+spring:
+  profiles: dev # 开发环境
+  applications:
+    name: applicationbus-dev
+  
+--- 
+server:
+  port: 19001 # 端口号
+spring:
+  profiles: prod # 生产环境
+  applications:
+    name: applicationbus-prod
+    
+#保存注意UTF-8保存
+  
