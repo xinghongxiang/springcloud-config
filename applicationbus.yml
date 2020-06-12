@@ -20,6 +20,13 @@ spring:
     name: applicationbus-prod
     
 getSay: hello,springcloud-bus
+
+eureka:
+  client:
+    registerWithEureka: true  # 服务注册开关
+    fetchRegistry: true       # 服务发现开关
+    serviceUrl:               # Eureka配置了集群版，需要配置二个Eureka集群分别的地址
+      defaultZone: http://eureka1.com:18080/eureka/,http://eureka2.com:18081/eureka/
     
 #保存注意UTF-8保存
   
