@@ -17,9 +17,9 @@ server:
 spring:
   profiles: prod # 生产环境
   application:
-    name: applicationbus-prod
+    name: applicationbus-prod1
     
-getSay: hello,springcloud-bus
+getSay: hello1,springcloud-bus
 
 eureka:
   client:
