@@ -19,5 +19,7 @@ spring:
   applications:
     name: applicationbus-prod
     
+getSay: hello,springcloud-bus
+    
 #保存注意UTF-8保存
   
