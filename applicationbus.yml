@@ -13,7 +13,7 @@ spring:
   
 --- 
 server:
-  port: 19002 # 端口号
+  port: 19001 # 端口号
 spring:
   profiles: prod # 生产环境
   applications:
