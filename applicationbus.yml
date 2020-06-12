@@ -19,7 +19,7 @@ spring:
   application:
     name: applicationbus-prod
     
-getSay: hello,springcloud-bus
+getSay: helloworld,springcloud-bus
 
 eureka:
   client:
